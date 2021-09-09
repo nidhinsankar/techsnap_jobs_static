@@ -45,7 +45,9 @@ ul li::before {
   width: 1em; /* Also needed for space (tweak if needed) */
   margin-left: -1em; /* Also needed for space (tweak if needed) */
 }
-
+ul .summary-li::before {
+  color: #212529;
+}
 #logo {
   width: 100px;
   object-fit: contain;
