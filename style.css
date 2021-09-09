@@ -22,6 +22,7 @@ body {
     scroll-behavior: smooth;
   }
 }
+
 .header {
   padding: 0 60px;
   width: 100%;
@@ -37,7 +38,7 @@ body {
 }
 ul li::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: red; /* Change the color */
+  color: #19191a; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1em; /* Also needed for space (tweak if needed) */
@@ -149,6 +150,7 @@ ul li::before {
 body {
   background-color: rgb(0, 0, 0);
 }
+
 .main-img {
   width: 30px;
   height: 40px;
@@ -164,6 +166,10 @@ body {
   transition: all 0.7s ease;
   background-color: rgb(236, 69, 208);
 }
+/* .icon-a {
+  background-color: #fff;
+  width: 20px;
+} */
 .btn:hover {
   background-color: white;
 }
@@ -264,6 +270,9 @@ body {
 }
 .Scroll a {
   text-decoration: none;
+}
+.border-container {
+  border: 2px solid black;
 }
 .Privacy_holder {
   font-family: "Montserrat", sans-serif !important;
